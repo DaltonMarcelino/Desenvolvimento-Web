@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão Tabelas</title>
+</head>
+<body>
+
+    <!-- Alinhamento de Tabela e Celulas -->
+
+    <center><h1>ALINHAMENTO DE TABELA E CELULAS</h1></center>
+    <table border="1" align="center"> <!-- Adiciona borda e adiciona ao centro as palavras -->
+        <td>Primeira celula</td>
+        <td>Segunda celula</td>
+        <td>Terceira celula</td>
+
+        <tr>
+            <td align="center"> Centro</td> <!-- Centraliza a palavra  -->
+            <td align="left"> Esquerda</td> <!-- Deixa na esquerda a palavra  -->
+            <td align="right"> Direita</td> <!-- Deixa na direita a palavra   -->
+        </tr>
+    </table>
+<br>
+<br>
+
+    <!-- Espaçamento igualmente entre-->
+
+    <center><h1>uso do CELLSPACING</h1></center>
+    <table border="1" width="80%" cellspacing="24" align="center"> <!-- Adiciona borda, adiciona ao centro as palavras, e espaçamento e largura  -->
+        <tr>
+        <td width="33%" align="center"> Coluna 1</td> <!-- Centraliza a palavra e define largura -->
+        <td width="33%" align="center"> Coluna 2</td> <!-- Deixa na esquerda a palavra e define largura  -->
+        <td width="34%" align="center"> Coluna 3</td> <!-- Deixa na direita a palavra e define largura  -->
+        </tr>
+<br>
+<br>
+    </table>
+<br>
+<br>
+    <center><h1>uso do CELLPADDING</h1></center>
+    <table border="1" width="80%" cellpadding="24" align="center"> <!-- Adiciona borda, adiciona ao centro as palavras, e espaçamento e largura  -->
+        <tr>
+        <td width="25%" align="center"> Aluno</td> <!-- Centraliza a palavra e define largura -->
+        <td width="30%" align="center"> Professor</td> <!-- Centraliza a palavra e define largura -->
+        <td width="45%" align="center"> Tec. Desenvolvimento</td> <!-- Centraliza a palavra e define largura -->
+        </tr>
+<br>
+<br>
+    </table>
+<br>
+<br>
+
+    <!-- Tabela usando colunas -->
+
+    <center><h1>uso do ROWSPAN</h1></center>
+    <table border="3" width="90%" cellpadding="7" align="center"> <!-- Adiciona borda, adiciona ao centro as palavras, e espaçamento e largura  -->
+    <tr>
+        <td width="16%" rowspan="3"> 3 Linhas</td> <!-- Usa 3 colunas da tabela e define largura-->
+        <td width="16%" > L1 Coluna 2 </td>
+        <td width="16%" > L1 Coluna 3 </td>
+        <td width="17%" > L1 Coluna 4</td>
+        <td width="17%" > L1 Coluna 5</td>
+    </tr>
+    <tr>
+        <td width="16%" > L2 Coluna 2 </td>
+        <td width="16%" > L2 Coluna 3 </td>
+        <td width="17%" > L2 Coluna 4</td>
+        <td width="17%" > L2 Coluna 5</td>
+    </tr>
+    <tr>
+        <td width="16%" > L3 Coluna 2 </td>
+        <td width="16%" > L3 Coluna 3 </td>
+        <td width="17%" > L3 Coluna 4</td>
+        <td width="17%" > L3 Coluna 5</td>
+    </tr>
+<br>
+<br>
+    </table>
+    <br>
+<br>
+
+    <!-- Tabela usando linhas -->
+
+    <center><h1>uso do COLSSPAN</h1></center>
+    <table border="3" width="80%" cellpadding="7" align="center"> <!-- Adiciona borda, adiciona ao centro as palavras, e espaçamento e largura  -->
+    <tr>
+        <td width="24%" colspan="3"> Celula com 3 colunas</td> <!-- Usa 3 linhas da tabela -->
+        <td width="20%" > L1 Coluna 4 </td>
+        <td width="20%" > L1 Coluna 5 </td>
+    </tr>
+    <tr>
+        <td width="16%" bgcolor="green" > L2 Coluna 2 </td>
+        <td width="16%" bgcolor="Blue"> L2 Coluna 3 </td>
+        <td width="17%" bgcolor="Yellow"> L2 Coluna 4</td>
+        <td width="24%" colspan="2" bgcolor="red"> Celula com 2 colunas</td>
+    </tr>
+<br>
+<br>
+    </table>
+    <center>
+        <address>
+            Dalton Marcelino / Estudante / Tecnico em Desenvolvimento de Sistemas
+        </address>
+    </center>
+</body>
+</html>
